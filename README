@@ -1,0 +1,24 @@
+Tema 2 - README 
+
+Pentru primul task am folosit o structura
+care contine ca si campuri o matrice si 
+un vector de pointeri.
+
+Am implementat functiile : nrlinii,arbore,
+castigator,copie_matrice.
+
+nrlinii ->numara spatiile goale din matricea
+primita ,numar corespunzator fiilor de pe nivel.
+
+castigator ->verifica daca vreunul din cei doi 
+a castigat
+
+copie_matrice -> copiaza matricea primita 
+
+ARBORE -> atata timp cat avem mutari si nu a 
+castigat nimeni
+alocam memorie pentru fii
+copiem matricea in fiul curent
+la pozitia actuala printam caracterul de joc
+printam fiul
+se continua prin recursivitate.
