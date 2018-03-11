@@ -103,31 +103,6 @@ void arbore(tree** tabla, char jucator,int nrspatii_init,FILE* iesire)
 
 }
 
-/*void task2(tree** tabla)
-{
-	int i;
-
-	if(castigator((*tabla)->matrice)==1)
-	{
-		(*tabla)->tip=1;
-		return;
-	}
-
-	if(nrspatii==0)
-	{	
-		if(castigator((*tabla)->matrice)==0)
-			(*tabla)->tip=0;
-		return;
-	}	
-
-	if(castigator((*tabla)->matrice)==0 && nrspatii!=0)
-		for(i=0;i<(*tabla)->dim;i++)
-				if((*tabla)->fiu[i])
-
-
-
-}*/
-
 void afisare(tree* tabla,FILE* iesire, int nrspatii_init)
 {
 	if(tabla==NULL)
